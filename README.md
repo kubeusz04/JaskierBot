@@ -1,63 +1,66 @@
 # 🎸 JaskierBot – Bard Discorda
 
-**JaskierBot** to muzyczny bot Discord inspirowany słynnym bardem z "Wiedźmina". Serwuje ballady i pieśni prosto z SoundClouda, komentując wszystko w jego typowym stylu – z humorem, charyzmą i lekkim dramatyzmem 🎤🎶
+**JaskierBot** to nie tylko bot muzyczny – to pełnoprawny bard na Twoim serwerze Discord!  
+Potrafi grać ballady z SoundClouda, komentować każdą komendę,  
+a do tego organizuje interaktywne quizy i prowadzi ranking Twojej ekipy. 🎤🎶
 
 ---
 
-## ✨ Funkcje
-- 🎧 **Odtwarzanie utworów z SoundCloud** (po nazwie lub bezpośrednim linku)
-- 🔍 **Wyszukiwanie 5 utworów z SoundCloud** i wybór jednego przez reakcje emoji
-- 📜 **Popisowe komendy** jak `/ballada` czy `/groszadaj`, odtwarzające konkretne pieśni
-- ⏯️ **Sterowanie odtwarzaniem** – pauza, wznowienie, stop, wyjście z kanału
-- 🗣️ **Stylizowane wypowiedzi Jaskiera** – każda komenda opatrzona klimatycznym komentarzem
+## ✨ Główne funkcje
+
+### 🎵 Muzyczny bard
+- `/wejdz` – bot dołącza do kanału głosowego
+- `/zagraj <nazwa>` – gra utwór z SoundClouda na podstawie frazy
+- `/szukaj <nazwa>` – wyszukuje 5 utworów z SoundClouda, użytkownicy wybierają reakcją
+- `/ballada` – gra specjalny utwór "Zapachniało powiewem jesieni"
+- `/groszadaj` – odtwarza "Grosza daj Wiedźminowi"
+- `/pauza`, `/wznowienie`, `/zatrzymaj`, `/wyjdz` – sterowanie muzyką
+
+### 🧠 Quiz
+- `/quiz` – bot wybiera losowe pytanie i każdego z użytkowników z kanału głosowego, wszyscy głosują reakcjami
+- `/ranking` – pokazuje wyniki głosowań i punkty graczy
 
 ---
 
-## ⚙️ Technologie
-- `discord.py` – obsługa bota
-- `yt_dlp` – pobieranie i przetwarzanie linków SoundCloud
-- `ffmpeg` – przetwarzanie audio
+## ⚙️ Wymagania
+
 - Python 3.10+
+- `discord.py`
+- `yt-dlp`
+- `ffmpeg`
+- `pynacl`
 
----
-
-## 🧙 Jak uruchomić
-
-1. Zainstaluj zależności:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Upewnij się, że masz zainstalowany **FFmpeg** (np. `sudo apt install ffmpeg`)
-
-3. Stwórz plik `.env` lub podmień token w `bot.run("TOKEN")`
-
-4. Odpal bota:
-   ```bash
-   python bot.py
-   ```
-
----
-
-## 📜 Przykładowe komendy
-
-```
-/join            – dołącz do kanału głosowego
-/zagraj <nazwa>  – zagraj utwór z SoundClouda
-/ballada         – specjalny numer Jaskiera
-/szukaj <słowo>  – wyszukaj 5 pasujących ballad i wybierz
-/stop            – zatrzymaj pieśń
-/wyjdz           – zakończ występ
+Zainstaluj zależności:
+```bash
+pip install -r requirements.txt
+sudo apt install ffmpeg -y
 ```
 
 ---
 
-## 🧭 Przyszłe funkcje
-- Playlisty!
-- Głosowanie na kolejną piosenkę
-- Więcej magicznych wypowiedzi Jaskiera
+## 🛠️ Konfiguracja
+
+Uruchom setup_jaskier.py w tym samym folderze co JaskierBot 1.0.py
+```bash
+python3 setup_jaskier.py
+```
+Podaj dane, a skrypt je wstawi ✨
+
 
 ---
 
-## 🛡️ Licencja
-Projekt stworzony do celów edukacyjnych i rozrywkowych. Nie jestem właścicielem żadnej muzyki odtwarzanej przez bota – wszelkie prawa należą do twórców na SoundCloud.
+## 🧪 Komendy
+
+```
+/ballada   -  Zagraj popisowy numer Jaskra
+/groszadaj  - Zagraj grosza daj wiedźminowi...
+/pauza  - Wstrzymaj granie muzyki
+/szukaj (nazwa piosenki)  - szuka 5 utworów o podanej nazwie i daje do wyboru co ma oddtworzyć
+/wejdz - Wchodzi na kanał głosowy
+/wyjdz - Wychodzi z kanału głosowego
+/wznowienie - wznawia zatrzymaną piosenkę 
+/zagraj  (nazwa piosenki)  -  Gra podany utwór
+/zatrzymaj - Przerywa grę i usuwa utwór z kolejki
+/quiz - Mini gra coś ala kumple - bot losuje pytanie i możecie zagłosować do kogo to pasuje (tylko dla tych co są na kanale głosowym) (edytowane)
+
+```
