@@ -74,7 +74,9 @@ Przejdź do zakładki „Network”
 Wyszukaj dowolny utwór i kliknij, by go odtworzyć
 
 W filtrze wpisz: client_id
+
 Zobaczysz linki typu:
+
 https://api-v2.soundcloud.com/media/soundcloud:tracks:XXXXXX/stream/hls?client_id=xxxxxxxxxxxxxxxxxxxx
 Skopiuj to co jest za client_id= – to jest właśnie to, czego szukasz!
 
