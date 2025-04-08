@@ -1,8 +1,7 @@
 # 🎸 JaskierBot – Bard Discorda
 
 **JaskierBot** to nie tylko bot muzyczny – to pełnoprawny bard na Twoim serwerze Discord!  
-Potrafi grać ballady z SoundClouda, komentować każdą komendę,  
-a do tego organizuje interaktywne quizy i prowadzi ranking Twojej ekipy. 🎤🎶
+Potrafi grać ballady z SoundClouda, komentować każdą komendę, a do tego organizuje interaktywne quizy i prowadzi ranking Twojej ekipy. 🎤🎶
 
 ---
 
