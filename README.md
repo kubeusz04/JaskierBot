@@ -49,18 +49,3 @@ Podaj dane, a skrypt je wstawi ✨
 
 ---
 
-## 🧪 Wszystkie Komendy
-
-```
-/ballada   -  Zagraj popisowy numer Jaskra
-/groszadaj  - Zagraj grosza daj wiedźminowi...
-/pauza  - Wstrzymaj granie muzyki
-/szukaj (nazwa piosenki)  - szuka 5 utworów o podanej nazwie i daje do wyboru co ma oddtworzyć
-/wejdz - Wchodzi na kanał głosowy
-/wyjdz - Wychodzi z kanału głosowego
-/wznowienie - wznawia zatrzymaną piosenkę 
-/zagraj  (nazwa piosenki)  -  Gra podany utwór
-/zatrzymaj - Przerywa grę i usuwa utwór z kolejki
-/quiz - Mini gra coś ala kumple - bot losuje pytanie i możecie zagłosować do kogo to pasuje (tylko dla tych co są na kanale głosowym) (edytowane)
-
-```
