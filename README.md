@@ -58,6 +58,7 @@ Kliknij „Add Bot” → potwierdź
 Kliknij „Reset Token” → potwierdź → skopiuj bot token
 
 Wklej ten token podczas działania setup_jaskier.py lub ręcznie do bot.run("...")
+
 ---
 
 ## 🎧 Jak zdobyć SoundCloud client_id
