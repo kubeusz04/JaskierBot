@@ -49,7 +49,7 @@ Podaj dane, a skrypt je wstawi ✨
 
 ---
 
-## 🧪 Komendy
+## 🧪 Wszystkie Komendy
 
 ```
 /ballada   -  Zagraj popisowy numer Jaskra
