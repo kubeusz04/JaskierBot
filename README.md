@@ -43,8 +43,41 @@ Uruchom setup_jaskier.py w tym samym folderze co JaskierBot 1.0.py
 ```bash
 python3 setup_jaskier.py
 ```
-Podaj dane, a skrypt je wstawi ✨
+---
+## 🪙 Jak zdobyć Discord BOT TOKEN
 
+🔐 Wejdź na Discord Developer Portal
+
+Kliknij „New Application” → nazwij ją np. JaskierBot
+
+Po utworzeniu:
+Przejdź do zakładki Bot
+
+Kliknij „Add Bot” → potwierdź
+
+Kliknij „Reset Token” → potwierdź → skopiuj bot token
+
+Wklej ten token podczas działania setup_jaskier.py lub ręcznie do bot.run("...")
+---
+
+## 🎧 Jak zdobyć SoundCloud client_id
+SoundCloud oficjalnie nie udostępnia prostego sposobu, ale da się zdobyć działające client_id ze strony – to legalne i działa tylko do odczytu.
+
+🧙‍♂️ Instrukcja:
+Wejdź na SoundCloud: https://soundcloud.com/
+
+Wciśnij F12, aby otworzyć narzędzia deweloperskie (DevTools)
+
+Przejdź do zakładki „Network”
+
+Wyszukaj dowolny utwór i kliknij, by go odtworzyć
+
+W filtrze wpisz: client_id
+Zobaczysz linki typu:
+https://api-v2.soundcloud.com/media/soundcloud:tracks:XXXXXX/stream/hls?client_id=xxxxxxxxxxxxxxxxxxxx
+Skopiuj to co jest za client_id= – to jest właśnie to, czego szukasz!
+
+🔁 Ten identyfikator możesz teraz wkleić do setup_jaskier.py albo bezpośrednio do kodu.
 
 ---
 
