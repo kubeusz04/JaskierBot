@@ -20,7 +20,8 @@ Potrafi grać ballady z SoundClouda, komentować każdą komendę, a do tego org
 - `/ranking` – pokazuje wyniki głosowań i punkty graczy
 
 ---
-https://github.com/kubeusz04/JaskierBot/blob/main/2.png?raw=true
+![Zrzut ekranu](https://github.com/kubeusz04/JaskierBot/blob/main/2.png?raw=true)
+
 ---
 
 ## ⚙️ Wymagania
