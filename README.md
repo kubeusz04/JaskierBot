@@ -21,6 +21,7 @@ Potrafi grać ballady z SoundClouda, komentować każdą komendę, a do tego org
 
 ---
 ![Zrzut ekranu](https://github.com/kubeusz04/JaskierBot/blob/main/2.png?raw=true)
+![Zrzut ekranu 2](https://github.com/kubeusz04/JaskierBot/blob/main/1.png?raw=true)
 
 ---
 
